@@ -12,3 +12,7 @@
 
 - Clicking the "Send to Adventure" button.
 - Closing the award notification pop-up window.
+
+## Support
+
+_Any problems? [Submit an issue](https://github.com/SmartBotBlack/nftpanda-bot/issues/new) or send message in telegram [@smartbotblack](https://t.me/smartbotblack) or email [hello@smartbot.black](https://smartbot.black)!_
