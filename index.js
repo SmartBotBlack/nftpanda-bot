@@ -26,9 +26,9 @@
         await new Promise((res) => setTimeout(res, PAUSE_WAIT_POPUP));
       }
 
-      // Click button "close" in popup
       await new Promise((res) => setTimeout(res, PAUSE_BEFORE_CLOSE_POPUP));
 
+      // Click button "close" in popup
       buttonClosePopup.click();
 
       await new Promise((res) => setTimeout(res, PAUSE_BUTTON));
