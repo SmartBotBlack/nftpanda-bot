@@ -1,5 +1,7 @@
 # NFT Panda Bot Free
 
+https://nftpanda.space/
+
 ## Instalation guide
 
 1. Open the game and log in.
