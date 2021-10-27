@@ -9,7 +9,7 @@
 
     // Find all active button for mine
     const buttonsSendToAdventure = document.querySelectorAll(
-      ".one-slot:not(.no-p):not(.dis) .button-in"
+      ".one-slot:not(.no-p):not(.dis) .one-slot-bt .button-in"
     );
 
     // Going through all active buttons
