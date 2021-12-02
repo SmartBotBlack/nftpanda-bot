@@ -26,6 +26,31 @@
         ".one-slot-bt .button-in"
       );
 
+      // Increasing the level of the hero
+
+      const stakebtn = document.querySelector(".can-stake");
+
+      if (stakebtn) {
+        await stakebtn.click();
+
+        const numberBamNeed = document.querySelector(".modal-must-add>span");
+        await numberBamNeed.click();
+        const addToStakeButton = document.querySelector(
+          ".one-stake-bam>button"
+        );
+        await addToStakeButton.click();
+
+        await new Promise((res) => setTimeout(res, PAUSE_WAIT_POPUP));
+
+        await document.querySelector(".modal-close").click();
+
+        const rankUpBtn = document.querySelector(".level-up > button");
+
+        await rankUpBtn.click();
+
+        await new Promise((res) => setTimeout(res, PAUSE_WAIT_POPUP));
+      }
+
       const energy = parseFloat(
         buttonSendToAdventure
           .querySelector(".tool-body")
@@ -43,11 +68,6 @@
         }
 
         await new Promise((res) => setTimeout(res, PAUSE_BEFORE_CLOSE_POPUP));
-
-        // Click button "close" in popup
-        document.querySelector(".papper-modal .button-name-in").click();
-
-        await new Promise((res) => setTimeout(res, PAUSE_BUTTON));
       }
 
       // Check energy
