@@ -68,6 +68,11 @@
         }
 
         await new Promise((res) => setTimeout(res, PAUSE_BEFORE_CLOSE_POPUP));
+
+        // Click button "close" in popup
+        document.querySelector(".papper-modal .button-name-in").click();
+
+        await new Promise((res) => setTimeout(res, PAUSE_BUTTON));
       }
 
       // Check energy
